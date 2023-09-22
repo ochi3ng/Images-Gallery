@@ -2,8 +2,9 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useHistory } from "react-router-dom";
 
-function SignInPage() {
+function SigninPage() {
     const { loginWithRedirect } = useAuth0();
+
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <div className="bg-white p-8 rounded-lg shadow-md w-96">
@@ -55,4 +56,4 @@ function SignInPage() {
     );
 }
 
-export default SignInPage;
+export default SigninPage;
